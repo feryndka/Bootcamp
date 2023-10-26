@@ -1,0 +1,10 @@
+Program triangle
+Kamus
+    a, b, c : integer
+Algoritma
+    a <- 80
+    b <- 65
+    c <- 180 - (a + b)
+    
+    output("Sudut ketiga:", c)
+Endprogram

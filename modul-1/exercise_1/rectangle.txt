@@ -1,0 +1,12 @@
+Program rectangle
+Kamus
+    panjang, lebar, luas, keliling : integer
+Algoritma
+    panjang <- 5
+    lebar <- 3
+    luas <- panjang * lebar
+    keliling <- (2 * panjang) + (2 * lebar)
+    
+    output("Luas :", luas)
+    output("Keliling :", keliling)
+Endprogram

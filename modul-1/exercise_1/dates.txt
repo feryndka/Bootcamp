@@ -1,0 +1,27 @@
+Program dates
+Kamus
+    date1, date2 : date
+    milisecond : real
+    differentDay : integer
+    year, month, days, tahun, bulan, hari : integer
+Algoritma
+    //find different day
+    date1 <- new Date('2022-01-20')
+    date2 <- new Date('2022-01-22')
+    milisecond = date2 - date1
+    differentDay = milisecond / (1000 * 60 * 60 * 24)
+
+    output("Perbedaan hari:", differentDay, "hari")
+
+    /*=============================================*/
+
+    //convert days to year, month, and days
+    year = 365
+    month = 30
+    days = 400 //change days here
+    tahun = (days / year)
+    bulan = (days % year) / month
+    hari = (days % year) % month
+
+    output(tahun, "year,", bulan, "month,", hari, "days")
+Endprogram

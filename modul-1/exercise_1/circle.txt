@@ -1,0 +1,16 @@
+Program circle
+Kamus
+    pi : real
+    radius, diameter : integer
+    keliling, luas : real
+Algoritma
+    pi <- 22/7
+    radius <- 5
+    diameter <- 2 * radius
+    keliling <- 2 * (pi * radius)
+    luas <- pi * (radius * radius)
+
+    output("Diameter:", diameter)
+    output("Keliling:", keliling)
+    output("Luas:", luas)
+Endprogram
