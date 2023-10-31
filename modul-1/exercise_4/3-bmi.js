@@ -1,5 +1,5 @@
 const bmi = (weight, height) => {
-    let result = (weight / height)
+    let result = weight / (height/100)**2;
     switch (true) {
         case (result < 18.5):
             return "less weight"
@@ -13,10 +13,10 @@ const bmi = (weight, height) => {
         case (result >= 30.0 && result <= 39.9):
             return "very overweight"
             break;
-        case (result > 39.9):
+        default:
             return "obesity"
             break;
     }
 }
 
-console.log(bmi(60, 1.70))
+console.log(bmi(60, 168))
