@@ -1,0 +1,49 @@
+*,
+html {
+    padding: 0;
+    margin: 0;
+}
+
+nav {
+    height: 100vh;
+    background: linear-gradient(royalblue, rgb(0, 255, 162));
+    display: flex;
+    align-items: center;
+}
+
+table, th, td {
+    text-align: center;
+    background-color: orange;
+    border: 2px solid black;
+    border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.cat, .dog, .simpanse, .jellyfish, .squid {
+    height: auto;
+    width: 150px;
+}
+
+#input {
+    font-weight: bold;
+}
+
+input {
+    accent-color: blue;
+}
+
+button {
+    position: fixed;
+    left: 10px;
+    bottom: 10px;
+    padding: 10px;
+    background-color: orange;
+    font-size: 15px;
+    border-radius: 10px;
+}
+
+button:hover {
+    background-color: black;
+    color: white;
+}

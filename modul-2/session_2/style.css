@@ -1,0 +1,68 @@
+*,
+html {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color:#6AB29B;
+}
+
+fieldset {
+    background-color:#247158 ;
+    height: 300px;
+    width: 300px;
+    border-radius: 10px;
+    border: 3px solid black;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+legend {
+    padding: 5px;
+    color: white;
+    font-size: 20px;
+    background-color: #186049;
+    border-radius: 5px;
+    border: 3px solid black;
+}
+
+label {
+    color: white;
+    font-size: 20px;
+    display: block;
+    margin-top: 10px;
+}
+
+input {
+    width: 300px;
+    padding: 5px;
+}
+
+div {
+    padding: 0 150px 0 150px;
+}
+
+button {
+    font-weight: bold;
+    background-color: white;
+    margin-top: 30px;
+    padding: 10px;
+    border: 3px solid black;
+    border-radius: 5px;
+}
+
+button:hover {
+    border: 3px solid white;
+    background-color: #6AB29B;
+    color: white;
+}
+
+.navbar {
+    height: 100vh;
+    width: 100vh;
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
